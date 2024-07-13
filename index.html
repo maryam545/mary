@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form
+      style="
+        max-width: 400px;
+        margin: 0 auto;
+        background-color: #d1e9e7;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      "
+    >
+      <label
+        style="
+          margin-bottom: 8px;
+          font-weight: bold;
+          color: rgba(102, 3, 151, 0.904);
+        "
+        for="name"
+        >name :</label
+      >
+      <input type="text" id="name" name="name" required />
+      <br />
+      <br />
+      <label
+        for="email"
+        style="
+          margin-bottom: 8px;
+          font-weight: bold;
+          color: rgba(102, 3, 151, 0.904);
+        "
+        >email :</label
+      >
+      <input type="email" id="email" name="email" required />
+      <br />
+      <br />
+      <label
+        style="
+          margin-bottom: 8px;
+          font-weight: bold;
+          color: rgba(102, 3, 151, 0.904);
+        "
+        for="message"
+        >user name :</label
+      >
+      <textarea
+        style="display: block"
+        name="message"
+        rows="4"
+        required
+      ></textarea>
+      <p
+        style="
+          margin-bottom: 8px;
+          font-weight: bold;
+          color: rgba(102, 3, 151, 0.904);
+        "
+      >
+        gender:
+      </p>
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="male" value="male" checked />
+      <br />
+      <br />
+      <label for="female">Female</label>
+      <input type="radio" name="gender" id="female" value="female" />
+      <br />
+      <br />
+      <button type="submit">submit</button>
+    </form>
+  </body>
+</html>
